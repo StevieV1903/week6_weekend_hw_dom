@@ -3,7 +3,13 @@ body {
 }
 
 button, input[type="submit"] {
+
   margin-top: 1rem;
+  font-size: 16px;
+}
+
+label.primary {
+  display: block;
 }
 
 #endangered-list {
@@ -12,7 +18,17 @@ button, input[type="submit"] {
   list-style-type: none;
 }
 
+.form-item {
+  display: flex;
+  margin: 0.7rem 0.7rem;
+  padding: 0.8rem 0.8rem;
+  border: 1px solid #20437c;
+  border-radius: 10%;
+  background: #f9cedf;
+}
+
 .animal-list-item {
+  display: flex;
   margin: 0.5rem 0.5rem;
   padding: 0.5rem 0.8rem;
   border: 1px solid #20437c;
