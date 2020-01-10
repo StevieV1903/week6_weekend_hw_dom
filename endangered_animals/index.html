@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>Endangered Animals App</title>
-  <!-- <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" /> -->
+  <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
   <script src="js/app.js"></script>
 </head>
 
@@ -14,12 +14,12 @@
       <div class="form-item">
         <label for="name" class="primary">Name of Animal:</label>
         <input type="text" id="name" required/>
-      </div>
+      </div><br>
 
       <div class="form-item">
         <label for="species" class="primary">Species:</label>
         <input type="text" id="species" required/>
-      </div>
+      </div><br>
 
       <div class="form-item">
         <label for="continent" class="primary">Continent:</label>
@@ -33,7 +33,7 @@
           <option value="South America">South America</option>
           <option value="Antarctica">Antarctica</option>
         </select>
-      </div>
+      </div><br>
 
       <div class="form-item">
         <label for="status" class="primary">Protected Status:</label>
@@ -43,14 +43,19 @@
           <option value="Endangered">Endangered</option>
           <option value="Vulnerable">Vulnerable</option>
         </select>
+      </div><br>
+
+      <div class="form-item">
+  <label for="cuddly" class="primary">Is Animal cuddly? </label>
+  <input type="radio" id="cuddly" value="YES">Yes
+  <input type="radio" id="cuddly" value="NO">No
       </div>
-    </div>
     <input type="submit" value="save"/>
-  </form>
+  </form><br>
 
   <button id="delete-all">Delete All</button>
 
-    <h1>Endangered List</h1>
-    <ul id="reading-list"></ul>
-  </body>
+  <h1>Endangered List:</h1>
+  <ul id="endangered-list"></ul>
+</body>
 </html>

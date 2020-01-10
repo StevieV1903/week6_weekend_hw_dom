@@ -1,0 +1,21 @@
+body {
+  font-family: Verdana;
+}
+
+button, input[type="submit"] {
+  margin-top: 1rem;
+}
+
+#endangered-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.animal-list-item {
+  margin: 0.5rem 0.5rem;
+  padding: 0.5rem 0.8rem;
+  border: 1px solid #20437c;
+  border-radius: 5%;
+  background: #f9cedf;
+}
