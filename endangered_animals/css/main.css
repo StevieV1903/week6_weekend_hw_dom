@@ -1,9 +1,17 @@
 body {
   font-family: Verdana;
+  background-color: #aae7f5;
+  border: 1px solid;
+}
+h1 {
+  color: #070146;
+  margin: 0.7rem 0.7rem;
+  padding: 0.8rem 0.8rem;
 }
 
 button, input[type="submit"] {
-
+  margin: 0.7rem 0.7rem;
+  padding: 0.8rem 0.8rem;
   margin-top: 1rem;
   font-size: 16px;
 }
@@ -24,14 +32,13 @@ label.primary {
   padding: 0.8rem 0.8rem;
   border: 1px solid #20437c;
   border-radius: 10%;
-  background: #f9cedf;
+  background: #1eeafe;
 }
 
 .animal-list-item {
-  display: flex;
   margin: 0.5rem 0.5rem;
   padding: 0.5rem 0.8rem;
   border: 1px solid #20437c;
   border-radius: 5%;
-  background: #f9cedf;
+  background: #1eeafe;
 }
